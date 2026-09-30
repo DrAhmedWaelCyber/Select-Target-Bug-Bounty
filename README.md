@@ -85,3 +85,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 <i>"The best bug is the one no one else is looking for."</i>
 </div>
+
+## 🛡️ Target Focus
+This tool is purely designed to streamline your Bug Bounty target selection.
