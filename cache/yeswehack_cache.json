@@ -1,0 +1,4418 @@
+[
+  {
+    "id": "outscale",
+    "name": "3DS OUTSCALE",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://cockpit-eu-west-2.outscale.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://fcu.eu-west-2.outscale.com",
+          "type": "api"
+        },
+        {
+          "target": "https://lbu.eu-west-2.outscale.com",
+          "type": "api"
+        },
+        {
+          "target": "https://osu.eu-west-2.outscale.com",
+          "type": "api"
+        },
+        {
+          "target": "https://eim.eu-west-2.outscale.com",
+          "type": "api"
+        },
+        {
+          "target": "https://directlink.eu-west-2.outscale.com",
+          "type": "api"
+        },
+        {
+          "target": "Any resource created or accessed with the Outscale Cloud on eu-west-2 region -  created by the Hunter",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Any resource created or accessed with the Outscale Cloud, on all regions - except the ones created by the Hunter",
+          "type": "other"
+        },
+        {
+          "target": "Other subdomains on outscale.com (wiki.outscale.net, fr.outscale.com, en.outscale.com... )",
+          "type": "other"
+        },
+        {
+          "target": "Social engineering of Outscale employees and contractors",
+          "type": "other"
+        },
+        {
+          "target": "Attack against Outscale offices (malware, backdoor, DoS, etc.)",
+          "type": "other"
+        },
+        {
+          "target": "Denial of service attacks",
+          "type": "other"
+        },
+        {
+          "target": "Vulnerabilities on products or services other than Cockpit or APIs",
+          "type": "other"
+        },
+        {
+          "target": "Issues in our DNS and NTP",
+          "type": "other"
+        },
+        {
+          "target": "Issues not leading to confidentiality, traceability or integrity problems. You can report it to support@outscale.com.",
+          "type": "other"
+        },
+        {
+          "target": "Same behavior as Amazon Web Services",
+          "type": "other"
+        },
+        {
+          "target": "E-mail server configuration (DKIM/SPF/DMARC)",
+          "type": "other"
+        },
+        {
+          "target": "Dataleaks or 3DS OUTSCALE-related vulnerabilities outside the scope of the IaaS Cloud Service.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "atg-public-bug-bounty-program",
+    "name": "ATG Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.atg.se",
+          "type": "other"
+        },
+        {
+          "target": "www.atg.se",
+          "type": "web-application"
+        },
+        {
+          "target": "api.atg.se",
+          "type": "api"
+        },
+        {
+          "target": "iam.atg.se",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/se/app/atg/id1434660322",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://apps.apple.com/se/app/atg-live/id1608156355",
+          "type": "other"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+          "type": "mobile-application-android"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "fraga.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "hittabutik.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "kundo.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "shop.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "r124.news.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "r123.news.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "r122.news.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "r121.news.atg.se (external supplier)",
+          "type": "other"
+        },
+        {
+          "target": "webbshop.atg.se (external supplier)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "alasco-gmbh-bug-bounty-program",
+    "name": "Alasco GmbH - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "app.alasco.de",
+          "type": "web-application"
+        },
+        {
+          "target": "api.alasco.de",
+          "type": "api"
+        },
+        {
+          "target": "*.alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "*.alasco.rocks",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All other domains or subdomains not listed in the above list of 'Scopes'.",
+          "type": "other"
+        },
+        {
+          "target": "explore.alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "explore.alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "www.alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "www.alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "lp.alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "lp.alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "support.alasco.de",
+          "type": "other"
+        },
+        {
+          "target": "support.alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "Please note that all non-authenticated areas of our systems are in scope for this program. This means that any vulnerability discovered in a system or service that does not require a login to access is eligible for a reward.",
+          "type": "other"
+        },
+        {
+          "target": "However, any vulnerability discovered in a system or service that requires a login to access is outside the scope of this program.",
+          "type": "other"
+        },
+        {
+          "target": "Alasco will not provide access credentials to any system, not for testing and also not for issue validation.",
+          "type": "other"
+        },
+        {
+          "target": "Attention: Third-party managed infrastructure (e.g. HubSpot, Salesforce, or other SaaS platforms) where Alasco has no ability to remediate vulnerabilities at the infrastructure or platform level, regardless of the subdomain.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ant-group-security-response-center-bug-bounty-program",
+    "name": "Ant Group Security Response Center - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 10,
+    "max_bounty": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.alipayplus.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.antom.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.worldfirst.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "bettrfinancing.com",
+          "type": "web-application"
+        },
+        {
+          "target": "anext.com.sg",
+          "type": "web-application"
+        },
+        {
+          "target": "alipayhk.com",
+          "type": "web-application"
+        },
+        {
+          "target": "antbank.hk",
+          "type": "web-application"
+        },
+        {
+          "target": "Any Other Applications found here: https://security-en.alipay.com/home",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'.",
+          "type": "other"
+        },
+        {
+          "target": "Third-party applications and websites",
+          "type": "other"
+        },
+        {
+          "target": "Not Belonging to Ant Group’s Products or Systems.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bookbeat",
+    "name": "BookBeat",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.bookbeat.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.bookbeat.com",
+          "type": "api"
+        },
+        {
+          "target": "https://search-api.bookbeat.com",
+          "type": "api"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.bookbeat.android&hl=en&pli=1",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/se/app/bookbeat-audiobooks-e-books/id1056652614?l=en-GB",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "edge.bookbeat.com",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bug-bounty-program-blablacar",
+    "name": "Bug Bounty Program - BlaBlaCar",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua))",
+          "type": "api"
+        },
+        {
+          "target": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "api"
+        },
+        {
+          "target": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "web-application"
+        },
+        {
+          "target": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://api.blablalines.com",
+          "type": "api"
+        },
+        {
+          "target": "https://daily.blablacar.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://blablacardaily.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.blablalines",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Any website that is not listed explicitly in the scope.",
+          "type": "other"
+        },
+        {
+          "target": "However, though listed in the out-of-scope list, if you really feel that a bug will leave an impact on our platform, please come up with a convincing and working POC. If that convinces us to change our code, we will reward you with a bounty.",
+          "type": "other"
+        },
+        {
+          "target": "Finally, fraud related reports are out-of-scope if they do not exploit a security vulnerability. Therefore, fraud activity enabled by bug or incomplete business rules enforcement are out-of-scope.  However, a fraud activity enabled by a CSRF exploit for example is valid.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cryptobox-bug-bounty",
+    "name": "Cryptobox",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://bounty.cryptobox.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/cryptobox/id972602802",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Testing any other system than https://bounty.cryptobox.com, in particular *.cryptobox.com or *.ercom.fr.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cyberghost-bug-bounty-program",
+    "name": "CyberGhost - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1250,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.cyberghostvpn.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.cyberghost.com",
+          "type": "web-application"
+        },
+        {
+          "target": "cyberghost.com",
+          "type": "web-application"
+        },
+        {
+          "target": "cyberghost.app",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.cyberghostvpn.com",
+          "type": "api"
+        },
+        {
+          "target": "CyberGhost VPN servers",
+          "type": "other"
+        },
+        {
+          "target": "https://apps.apple.com/us/app/id583009522",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://www.cyberghostvpn.com/en_US/apps/linux-vpn",
+          "type": "application"
+        },
+        {
+          "target": "https://www.cyberghostvpn.com/en_US/apps/windows-vpn",
+          "type": "application"
+        },
+        {
+          "target": "https://www.cyberghostvpn.com/en_US/apps/macos-vpn",
+          "type": "application"
+        },
+        {
+          "target": "Applications/Extensions under https://www.cyberghostvpn.com/download",
+          "type": "application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dana-bug-bounty-program",
+    "name": "DANA Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/id/app/dana/id1437123008",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "m.dana.id",
+          "type": "web-application"
+        },
+        {
+          "target": "mgs-gw.dana.id",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "webdev.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "wp.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "fiat.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "cmsdev.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "techops.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "dm.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "encrypt.dana.id",
+          "type": "other"
+        },
+        {
+          "target": "*.dana.id",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "decathlon",
+    "name": "DECATHLON",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://apps.apple.com/fr/app/decathlon-shopping/id1168607403",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.decathlon.app",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://(navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*",
+          "type": "api"
+        },
+        {
+          "target": "https://www.decathlon.(fr|ch|co.uk|it|nl|de|pt|es|be|pl|cz|ca)/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.decathlon.(hu|ro|com.tr)/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains, subdomains, apps not listed in-scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "datadome-bot-bounty",
+    "name": "DataDome Bot Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 200,
+    "max_bounty": 1000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://bounty-nodejs.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://bounty-fastly.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://bounty-nginx.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "*.captcha-delivery.com",
+          "type": "web-application"
+        },
+        {
+          "target": "js.datadome.co",
+          "type": "web-application"
+        },
+        {
+          "target": "api-js.datadome.co",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Distributed attacks (scraping must be performed from a single IP at a time)",
+          "type": "other"
+        },
+        {
+          "target": "Denial of service attacks or any technique whose goal is to degrade infrastructure availability. This falls outside the scope of bot protection bypass and will not be rewarded.",
+          "type": "other"
+        },
+        {
+          "target": "Social engineering of DataDome employees or contractors",
+          "type": "other"
+        },
+        {
+          "target": "Client-side web vulnerabilities",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "datadome-bug-bounty",
+    "name": "DataDome Bug Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://app.datadome.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api-app.datadome.co/",
+          "type": "api"
+        },
+        {
+          "target": "https://customer-api.datadome.co",
+          "type": "api"
+        },
+        {
+          "target": "https://api.datadome.co",
+          "type": "api"
+        },
+        {
+          "target": "https://api-js.datadome.co",
+          "type": "api"
+        },
+        {
+          "target": "https://*.captcha-delivery.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://auth.datadome.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://datadome.co",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        {
+          "target": "Third-party widgets on www.datadome.co and app.datadome.co",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "doctolib-public-bug-bounty-program",
+    "name": "Doctolib",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 50000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.doctolib.(fr|de|it)",
+          "type": "web-application"
+        },
+        {
+          "target": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+          "type": "web-application"
+        },
+        {
+          "target": "Special scenarios (see description)",
+          "type": "web-application"
+        },
+        {
+          "target": "*.doctolib.(fr|de|it|com|net)",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/doctolib/id925339063",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "*.siilo.com",
+          "type": "application"
+        },
+        {
+          "target": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+          "type": "mobile-application-android"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Note: should you discover a critical issue within an asset that falls outside the program's scope, we would appreciate it and may choose to offer a reward at our discretion.",
+          "type": "other"
+        },
+        {
+          "target": "community.doctolib.com | .fr | .de | .it",
+          "type": "other"
+        },
+        {
+          "target": "info.doctolib.com | .fr | .de | .it",
+          "type": "other"
+        },
+        {
+          "target": "status.doctolib.com | .fr | .it",
+          "type": "other"
+        },
+        {
+          "target": "store.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "media.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "fb.doctolib.com | fb-dev.doctolib.fr",
+          "type": "other"
+        },
+        {
+          "target": "pro-app.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "developers.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "dmp.doctolib.fr | dmp-prd-aws-*.doctolib.fr",
+          "type": "other"
+        },
+        {
+          "target": "fm.doctolib.fr | fm.doctolib.it | voip.doctolib.de and other decommissioned / dangling Doctolib sub-domains",
+          "type": "other"
+        },
+        {
+          "target": "doctocommit.doctolib.fr",
+          "type": "other"
+        },
+        {
+          "target": "share.doctolib.net",
+          "type": "other"
+        },
+        {
+          "target": "doctolib.atlassian.net and any *.atlassian.net path",
+          "type": "other"
+        },
+        {
+          "target": "doctolib.zendesk.com | siilo.zendesk.com",
+          "type": "other"
+        },
+        {
+          "target": "api.tanker.io (Accessing the tanker private key is normal functioning of the Tanker protocol)",
+          "type": "other"
+        },
+        {
+          "target": "There is no IDOR on /api/security/tanker_groups via subject_id",
+          "type": "other"
+        },
+        {
+          "target": "exceptions.doctolib.fr | .de",
+          "type": "other"
+        },
+        {
+          "target": "billing-client-logs.billing.doctolib.fr | api-external.datascience.doctolibdata.com",
+          "type": "other"
+        },
+        {
+          "target": "doctolib-ps-ehr-downloads.s3.amazonaws.com",
+          "type": "other"
+        },
+        {
+          "target": "vettore.it and any related Vettore assets",
+          "type": "other"
+        },
+        {
+          "target": "Craft CMS on www.siilo.com, plus siilo.com marketing / staging sub-domains (l.siilo.com, l-dev.siilo.com, web.siilo.com, web-dev.siilo.com, www-admin.siilo.com, mjt-dev.siilo.com, att-dev-nl.siilo.com, sandbox-nl.siilo.com, connect.siilo.com, prod-nl-web.siilo.com)",
+          "type": "other"
+        },
+        {
+          "target": "Third-party assets linked from our products (e.g. login.decathlon.net, wallet.esw.esante.gouv.fr, preprod.alaxione.fr, hooks.zapier.com, cron.signitic.app, job-boards.greenhouse.io, docto.digitalstack.it, and any hospital-specific or customer-specific host)",
+          "type": "other"
+        },
+        {
+          "target": "Any *.sslip.io, *.nip.io, AWS ELB / load-balancer hostname, or raw IPv4 / IPv6 address",
+          "type": "other"
+        },
+        {
+          "target": "Look-alike, typo-squatting or expired domains not owned by Doctolib (e.g. www.dioctolib.de, doctolib.fr.evil.com, doctodketest.tk, doctolib-poc.partner-experience.com)",
+          "type": "other"
+        },
+        {
+          "target": "Public GitHub repositories we do not own (such as student projects doing)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dossier-medical-partage-program",
+    "name": "Dossier Medical Partagé Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.dmp.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "api.dmp.gouv.fr",
+          "type": "api"
+        },
+        {
+          "target": "auth.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "wps-cps.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "wps-cps.cv.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "web-mh.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "lps.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "lps2.dmp.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://sip2.dmp.gouv.fr",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All assets that are not listed in the scope section are to be considered as out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "expressvpn-bug-bounty-program",
+    "name": "ExpressVPN - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.expressvpn.com",
+          "type": "web-application"
+        },
+        {
+          "target": "app.expressmailguard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "expressvpn.jobs",
+          "type": "web-application"
+        },
+        {
+          "target": "ExpressVPN APIs",
+          "type": "api"
+        },
+        {
+          "target": "https://xv-cp.apis-staging.xvtest.net/",
+          "type": "api"
+        },
+        {
+          "target": "https://cp.expressapisv2.net",
+          "type": "api"
+        },
+        {
+          "target": "https://api.expressvpn.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.enc.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.dbs.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.dts.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.blts.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.pcrs.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.jwks.kape.com",
+          "type": "api"
+        },
+        {
+          "target": "ExpressVPN VPN servers",
+          "type": "other"
+        },
+        {
+          "target": "ExpressVPN Router",
+          "type": "other"
+        },
+        {
+          "target": "*.xvtest.net",
+          "type": "web-application"
+        },
+        {
+          "target": "*.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "1pw-scim.prd.iat.it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "gatekeeper.prd.iat.it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "iat.it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "prd.iat.it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "vector.prd.iat.it.xvservice.net",
+          "type": "web-application"
+        },
+        {
+          "target": "gh-mail.expressvpn.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.polymoon.it",
+          "type": "web-application"
+        },
+        {
+          "target": "corp.polymoon.it",
+          "type": "web-application"
+        },
+        {
+          "target": "networkguard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "Any Applications under https://www.expressvpn.com/latest",
+          "type": "application"
+        },
+        {
+          "target": "https://github.com/expressvpn/lightway",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/expressvpn/wolfssl-rs",
+          "type": "other"
+        },
+        {
+          "target": "TrustedServer 100,000 Bonus Award (See Program Policy for Info)",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ezviz-bug-bounty-program",
+    "name": "Ezviz - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+          "type": "other"
+        },
+        {
+          "target": "Hardware found on https://www.ezviz.com/category/smart-home",
+          "type": "other"
+        },
+        {
+          "target": "api.ezvizlife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "open.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.ezviz.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ezviz.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ezvizlife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.eziot.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ezviz7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.hicloudcam.com,",
+          "type": "web-application"
+        },
+        {
+          "target": "*.hikops.com,",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ezvizru.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Test environment(for example: test.ys7.com)",
+          "type": "other"
+        },
+        {
+          "target": "Pre-release environment(for example: pb.ys7.com)",
+          "type": "other"
+        },
+        {
+          "target": "Demo environment (for example: ezcpcloudiot.eziot.com)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fdj-united-online-betting-gaming-bug-bounty-program",
+    "name": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 15000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.unibet.(com­|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
+          "type": "web-application"
+        },
+        {
+          "target": "fi.unibet.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.unibet.(com­|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
+          "type": "web-application"
+        },
+        {
+          "target": "www.mariacasino.(com|se|ee|dk)",
+          "type": "web-application"
+        },
+        {
+          "target": "fi.mariacasino.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.mariacasino.(com|se|ee|dk)",
+          "type": "web-application"
+        },
+        {
+          "target": "int.32red.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.bingo.com",
+          "type": "web-application"
+        },
+        {
+          "target": "(se|fi|uk).bingo.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.bingo.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.ottokasino.com",
+          "type": "web-application"
+        },
+        {
+          "target": "en.ottokasino.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.ottokasino.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.ottocasino.se",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.ottocasino.se",
+          "type": "web-application"
+        },
+        {
+          "target": "www.kolikkopelit.com",
+          "type": "web-application"
+        },
+        {
+          "target": "en.kolikkopelit.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.kolikkopelit.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.storspiller.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.storspiller.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.storspelare.se",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.storspelare.se",
+          "type": "web-application"
+        },
+        {
+          "target": "www.casinohuone.com",
+          "type": "web-application"
+        },
+        {
+          "target": "en.casinohuone.com",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.casinohuone.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vladcazino.ro",
+          "type": "web-application"
+        },
+        {
+          "target": "payment.vladcazino.ro",
+          "type": "web-application"
+        },
+        {
+          "target": "https://pci.kindredgroup.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.32red.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "/blog/ (or translated equivalent) endpoints on our sites",
+          "type": "web-application"
+        },
+        {
+          "target": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+          "type": "mobile-application-android"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes' should be considered to be out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gojek-bug-bounty-program",
+    "name": "GOJEK - Public Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 5,
+    "max_bounty": 3500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.gojekapi.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "api.gojek.co.id",
+          "type": "api"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.gojek.app",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/id/app/gojek/id944875099",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "gofood.co.id",
+          "type": "web-application"
+        },
+        {
+          "target": "api.gobiz.co.id",
+          "type": "api"
+        },
+        {
+          "target": "*.gofood.co.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.gobiz.co.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "portal.gofoodmerchant.co.id",
+          "type": "web-application"
+        },
+        {
+          "target": "*.gojek.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.golabs.io",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.gofoodmerchant.co.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "gocorp.gojek.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.gojek.resto",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/sg/app/gojek-driver/id1573529788",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.gojek.partner",
+          "type": "mobile-application-android"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Any staging environment will be out of scope (staging domain could be indicated by words like test/integration/staging, etc)",
+          "type": "other"
+        },
+        {
+          "target": "All other Goto assets not listed above are to be considered as out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grw-trading-fze-bug-bounty-program",
+    "name": "GRW Trading FZE - Open Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://*.grwtrading.com",
+          "type": "other"
+        },
+        {
+          "target": "https://*.dropxl.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "goto-financial-public-bounty-program",
+    "name": "GoTo Financial - Public Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 5,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://apps.apple.com/id/app/gopay-transfer-pulsa-bills/id6446321594",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.gojek.gopay&hl=id",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "*.gopayapi.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "gopaymerchant.midtrans.com",
+          "type": "web-application"
+        },
+        {
+          "target": "mokapos.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.go-pay.co.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "api.midtrans.com",
+          "type": "api"
+        },
+        {
+          "target": "app.midtrans.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.midtrans.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.gaming.gopayapi.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.findaya.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.findaya.co.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.gtflabs.io",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.mab.co.id",
+          "type": "wildcard"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "- Any staging environment will be out of scope (staging domain could be indicated by words like test/integration/staging, etc)",
+          "type": "other"
+        },
+        {
+          "target": "- All other Goto Financial assets not listed above are to be considered as out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "harman-international-web-applications",
+    "name": "HARMAN International - Web Applications",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.jbl.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.bowerswilkins.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.denon.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.marantz.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.harmanaudio.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.harmankardon.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.polkaudio.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.support.jbl.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.definitivetechnology.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.jbl.nl",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.classeaudio.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.jbl.ru",
+          "type": "web-application"
+        },
+        {
+          "target": "*.uk.jbl.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.uk.harmanaudio.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.de.jbl.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.in.jbl.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.jbl.com.br",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.bostonacoustics.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roonlabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roonlabs.net",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roonessentials.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roonessentials.net",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roondrops.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.account.roon.app",
+          "type": "web-application"
+        },
+        {
+          "target": "*.roon.app",
+          "type": "web-application"
+        },
+        {
+          "target": "*.gotdrops.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.gotdrops.cloud",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "cloud.cloud2.harmanaudio.com",
+          "type": "other"
+        },
+        {
+          "target": "cloud.cloud1.harmanaudio.com",
+          "type": "other"
+        },
+        {
+          "target": "cloud.cloud3.harmanaudio.com",
+          "type": "other"
+        },
+        {
+          "target": "https://secondchance.jbl.com/module/stripe_official/createIntent",
+          "type": "other"
+        },
+        {
+          "target": "jp.harmanaudio.com",
+          "type": "other"
+        },
+        {
+          "target": "jp.jbl.com",
+          "type": "other"
+        },
+        {
+          "target": "https://devicedb.roonlabs.net/1/devicedb-*.zip",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "harman-international-public-bug-bounty",
+    "name": "Harman International Lifestyle Products & Services",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Device: JBL Bar 500MK2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 700MK2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 800MK2",
+          "type": "other"
+        },
+        {
+          "target": "https://events.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://ota.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://apis.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://edgeapis.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "Device: JBL PartyBox Encore 2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Live Beam 3",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Flip 7",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Tour One M3",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Charge 5",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 300MK2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 1000MK2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 1300MK2",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Authentics 200",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Authentics 300",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Authentics 500",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Boombox 3 Wi-Fi",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Charge 5 Wi-Fi",
+          "type": "other"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://tms.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://quantum-events.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://bluetooth-events.onecloud.harman.com",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Mobile app versions that are not currently in app stores.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "imou-public-bug-bounty-program",
+    "name": "IMOU Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 10,
+    "max_bounty": 1200,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://app.easy4ipcloud.com",
+          "type": "application"
+        },
+        {
+          "target": "https://app-*.easy4ipcloud.com",
+          "type": "application"
+        },
+        {
+          "target": "https://partnerapi.imoulife.com",
+          "type": "api"
+        },
+        {
+          "target": "https://www.imou.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://glow.imoulife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://hg.easy4ipcloud.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "infomaniak-bug-bounty-program",
+    "name": "Infomaniak Bug Bounty program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 7000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "api.infomaniak.com",
+          "type": "api"
+        },
+        {
+          "target": "login.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "manager.infomaniak.com/v3/*",
+          "type": "web-application"
+        },
+        {
+          "target": "shop.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "ksuite.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.kdrive.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "swiss-backup*.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.kchat.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "calendar.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "chk.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "contacts.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "etickets.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "kmeet.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "kpaste.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "mail.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "player-radio.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "storage*.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "sync.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "swisstransfer.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "vod.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.vod2.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "welcome.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.swisstransfer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "euria.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://github.com/Infomaniak/desktop-kDrive",
+          "type": "application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.mail",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "kdrive.infomaniak.com/app/*/preview/*",
+          "type": "web-application"
+        },
+        {
+          "target": "kdrive.infomaniak.com/app/office*/*",
+          "type": "web-application"
+        },
+        {
+          "target": "ksuite.infomaniak.com/*/kdrive/*/preview/*",
+          "type": "web-application"
+        },
+        {
+          "target": "infomaniak.events",
+          "type": "web-application"
+        },
+        {
+          "target": "hosting-ik.com",
+          "type": "web-application"
+        },
+        {
+          "target": "ix2smbdyjt.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "5k8vrbdyje.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "fv3lfbdyjh.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "l75pvbdyjo.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.chat",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.sync",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "*.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "api.pub1.infomaniak.cloud",
+          "type": "web-application"
+        },
+        {
+          "target": "api.pub2.infomaniak.cloud",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Assets not listed in the in scope section are to be considered as out of the scope of this program and won't be eligible for reward",
+          "type": "other"
+        },
+        {
+          "target": "We do not manage Open Stack dashboard which is therefore out of scope",
+          "type": "other"
+        },
+        {
+          "target": "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains",
+          "type": "other"
+        },
+        {
+          "target": "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents.",
+          "type": "other"
+        },
+        {
+          "target": "FTP credentials from our customers, like *.ftp.infomaniak.com",
+          "type": "other"
+        },
+        {
+          "target": "VPS instances from our customers, like *.vps.infomaniak.com",
+          "type": "other"
+        },
+        {
+          "target": "MySQL credentials from our customers, like *.myd.infomaniak.com",
+          "type": "other"
+        },
+        {
+          "target": "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com",
+          "type": "other"
+        },
+        {
+          "target": "User email verification",
+          "type": "other"
+        },
+        {
+          "target": "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile.",
+          "type": "other"
+        },
+        {
+          "target": "S3 credentials from our customers, like s3.pub*.infomaniak.cloud",
+          "type": "other"
+        },
+        {
+          "target": "Database service instances from customers, like *.dbaas.infomaniak.cloud",
+          "type": "other"
+        },
+        {
+          "target": "acronis.infomaniak.com",
+          "type": "other"
+        },
+        {
+          "target": "Partner program: pages about finding partner and sending offer, and reports about data already public on the partner directory are not eligible. Missing authorization on partner-program routes exposing private data remains in scope.",
+          "type": "other"
+        },
+        {
+          "target": "storage*.infomaniak.com/newsletter/thumbnails/*",
+          "type": "other"
+        },
+        {
+          "target": "Information returned by /get-tickets-infos (including organizer, event_name, event_date, command_date, and masked email) is out of scope",
+          "type": "other"
+        },
+        {
+          "target": "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "komoju-public-bug-bounty-program",
+    "name": "KOMOJU - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 7000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://yeswehack.staging.komoju.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://doc.komoju.com/docs/fields-overview",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Account squatting, or registering accounts to prevent others from signing up, is out of scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kiteworks-public-bug-bounty-program-1",
+    "name": "Kiteworks Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 50000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Crown Jewel Heist",
+          "type": "challenge"
+        },
+        {
+          "target": "Kiteworks Core",
+          "type": "web-application"
+        },
+        {
+          "target": "Email Protection Gateway (EPG)",
+          "type": "web-application"
+        },
+        {
+          "target": "Managed File Transfer (MFT)",
+          "type": "web-application"
+        },
+        {
+          "target": "Secure Data Forms (SDF, aka Advanced Forms)",
+          "type": "web-application"
+        },
+        {
+          "target": "API Playground",
+          "type": "web-application"
+        },
+        {
+          "target": "Kiteworks Android App",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "Kiteworks iOS App",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "Kiteworks for Desktop",
+          "type": "application"
+        },
+        {
+          "target": "Kiteworks Desktop Client 2.0",
+          "type": "application"
+        },
+        {
+          "target": "Kiteworks for Outlook Desktop",
+          "type": "application"
+        },
+        {
+          "target": "Kiteworks for Office Desktop",
+          "type": "application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Testing is only authorized on the targets listed as in scope. Any domain/property of Kiteworks not listed in the targets section is out of scope. This includes any/all subdomains not listed above. If you happen to identify a security vulnerability on a target that is not in scope, but it demonstrably belongs to Kiteworks, you can report it here. However, be aware that it is ineligible for rewards or points-based compensation.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "louis-vuitton-malletier-public-bug-bounty-program",
+    "name": "Louis Vuitton Malletier - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://[it | fr | us | sg | …].louisvuitton.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.api.louisvuitton.com",
+          "type": "api"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/louis-vuitton/id709101942",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.vuitton.android&hl=fr&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://appgallery.huawei.com/#/app/C102099703?locale=zh_CN&source=appshare&subsource=C102099703",
+          "type": "mobile-application"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/louis-vuitton-city-guide/id1014618396",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program",
+          "type": "other"
+        },
+        {
+          "target": "*.louisvuitton.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "maya-public-bug-bounty-program",
+    "name": "Maya - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.paymaya",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://appgallery.huawei.com/app/C101186357",
+          "type": "mobile-application"
+        },
+        {
+          "target": "https://api.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://pg.paymaya.com",
+          "type": "api"
+        },
+        {
+          "target": "https://payoutapi.maya.ph/",
+          "type": "api"
+        },
+        {
+          "target": "https://op.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://connect.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://paymayabiller-prod.paymaya.com/",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Other subdomain of paymaya.com that has no direct integration/part of the mobile application",
+          "type": "other"
+        },
+        {
+          "target": "Non-Production environments (test, dev, staging, or sandbox)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mediamarktsaturn-bug-bounty-program",
+    "name": "MediaMarktSaturn Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.mediamarkt.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.saturn.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.com.tr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediaworld.it",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.pl",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.ch",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.es",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.nl",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.be",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.hu",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.mediamarkt.at",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.media.markt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/mediamarkt-deutschland/id386304604",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=at.com.media.markt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/at/app/mediamarkt-%C3%B6sterreich/id583300669",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=tr.com.media.markt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/tr/app/mediamarkt-t%C3%BCrkiye/id908956795",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=it.mediamarket.mediaworld",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/it/app/mediaworld-app/id1076895831",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=es.mediamarkt.app",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/es/app/mediamarkt-comprar-online/id1438532508",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=be.com.media.markt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/be/app/mediamarkt-belgi%C3%AB/id958993034",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=nl.com.media.markt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/nl/app/mediamarkt-nederland/id573907448",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=ch.mediamarkt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/ch/app/media-markt-schweiz/id1169043480",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=pl.mediamarkt",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/pl/app/mediamarkt-polska/id6470200706",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.media.saturn",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/saturn-deutschland/id557562682",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mon-espace-sante-mes",
+    "name": "Mon Espace Santé (MES)",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 8000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "admincms.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "adminstore.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "api.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "auth.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "cms.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "editeur.api.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "editeurs.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "knowage.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "support.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "api.editeur.preprod.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "api.preprod.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "auth.preprod.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "preprod.api.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "preprod.auth.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "preprod.editeur.api.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "preprod.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "preprod1.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "preprod2.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "securite.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "editeur.am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "am.editeur.preprod.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "am.preprod.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "preprod.am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "preprod.editeur.am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "www.preprod.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.preprod1.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.preprod2.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "www.editeur.am.monespacesante.fr",
+          "type": "mobile-application"
+        },
+        {
+          "target": "www.editeur.api.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "fhir.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "am.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "api.developer.monespacesante.fr",
+          "type": "api"
+        },
+        {
+          "target": "fhir.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "editeurs.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "knowage.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "adminstore.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "admincms.developer.monespacesante.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "wps-cps.dmp.monespacesante.fr",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Anything that is not explicitely listed as part of the Scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "moneybox-bug-bounty",
+    "name": "Moneybox Bug Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://api.moneyboxapp.com",
+          "type": "api"
+        },
+        {
+          "target": "https://admin.moneyboxapp.org",
+          "type": "web-application"
+        },
+        {
+          "target": "https://admin-roundups.moneyboxapp.org",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://sycamore.moneyboxapp.org",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "- Any reports relating to improper authorization / information disclosure on api.moneyboxapp.com through /investment/payments/GetGiftUser/{code} and PII leak or sensitive data exposure is out of scope as this was intended by design.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "otto-de-bug-bounty",
+    "name": "OTTO.DE Bug Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.otto.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.otto.de/jobs",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://www.lascana.de/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://teleoptiprd.otto.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://mmp.otto.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://orbidder.otto.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://supplier-connect.otto.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://retail-api.otto.de",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Out-Of-Scope are also other applications hosted under the www.otto.de domain but have a different path, that is not part of our core online shop itself (you will notice, since the design of the page is completely different)",
+          "type": "other"
+        },
+        {
+          "target": "Those include but are not limited to (if unsure, contact us before executing the tests):",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/reblog",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/roombeez",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/twoforfashion",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/soulfully",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/updated",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/newsroom",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/kundenchat",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/clara",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/user/sendcallbackrequest",
+          "type": "other"
+        },
+        {
+          "target": "https://www.otto.de/user/contactFormSubmit",
+          "type": "other"
+        },
+        {
+          "target": "https://keycloak.apps.otto.de",
+          "type": "other"
+        },
+        {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        {
+          "target": "/apps-messenger (the chatbot in general is out of scope)",
+          "type": "other"
+        },
+        {
+          "target": "/tracking",
+          "type": "other"
+        },
+        {
+          "target": "Please let us know if you have any questions regarding the scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ovh",
+    "name": "OVHcloud",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 12500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "api.ovh.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.ovh.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.soyoustart.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains, subdomains or applications not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Vulnerabilities reported on client services",
+          "type": "other"
+        },
+        {
+          "target": "*.osp.ovh.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ooredoo-qpsc-bug-bounty-program",
+    "name": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.ooredoo.qa",
+          "type": "web-application"
+        },
+        {
+          "target": "https://mobile.ooredoo.qa",
+          "type": "mobile-application"
+        },
+        {
+          "target": "https://selfcare.ooredoo.qa",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "paddle-com-public-bug-bounty-program",
+    "name": "Paddle.com Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://vendors.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://sandbox-vendors.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.paddle.com",
+          "type": "api"
+        },
+        {
+          "target": "https://sandbox-api.paddle.com",
+          "type": "api"
+        },
+        {
+          "target": "https://sandbox-checkout-service.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://sandbox-buy.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://paddle.net",
+          "type": "web-application"
+        },
+        {
+          "target": "https://customer-portal.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://login.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://sandbox-login.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.paddle.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://developer.paddle.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program",
+          "type": "other"
+        },
+        {
+          "target": "https://checkout-service.paddle.com",
+          "type": "other"
+        },
+        {
+          "target": "https://buy.paddle.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pine-labs-bug-bounty-program",
+    "name": "Pine Labs Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 1000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://billingserver.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "dashboard.pluralonline.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://lounge.pinelabs.com/loungeui/login",
+          "type": "web-application"
+        },
+        {
+          "target": "https://pinepgconsole.in:9099",
+          "type": "web-application"
+        },
+        {
+          "target": "analytics.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://myplutus.pinelabs.my",
+          "type": "web-application"
+        },
+        {
+          "target": "trm.pinepaymentsolutions.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://trm.pinelabs.ae",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.letspaylater.ph",
+          "type": "web-application"
+        },
+        {
+          "target": "https://credit.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://emistores.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.pinelabs.my",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.pinelabs.ae",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.pinelabs.us",
+          "type": "web-application"
+        },
+        {
+          "target": "https://board.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://nbs.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.pluralonline.com",
+          "type": "api"
+        },
+        {
+          "target": "https://api.pluralpay.in",
+          "type": "api"
+        },
+        {
+          "target": "https://pinepg.in",
+          "type": "api"
+        },
+        {
+          "target": "https://pluralcheckout.pinepg.in",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All other Pine Labs assets that are not listed above are to be treated as out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "private-internet-access-bug-bounty-program",
+    "name": "Private Internet Access - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1250,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.privateinternetaccess.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.piaservers.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.piaservers.net",
+          "type": "web-application"
+        },
+        {
+          "target": "api.privateinternetaccess.com",
+          "type": "api"
+        },
+        {
+          "target": "https://privateinternetaccess.com/api/client/v5",
+          "type": "api"
+        },
+        {
+          "target": "PIA VPN servers",
+          "type": "other"
+        },
+        {
+          "target": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://www.privateinternetaccess.com/download/linux-vpn",
+          "type": "application"
+        },
+        {
+          "target": "https://www.privateinternetaccess.com/download/mac-vpn",
+          "type": "application"
+        },
+        {
+          "target": "https://www.privateinternetaccess.com/download/windows-vpn",
+          "type": "application"
+        },
+        {
+          "target": "Applications/Extensions under https://www.privateinternetaccess.com/download",
+          "type": "application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+    "name": "Programme de prime aux bogues du Gouvernement du Québec",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.cyber.gouv.qc.ca",
+          "type": "web-application"
+        },
+        {
+          "target": "https://auth-ywh.it.authentification.si.gouv.qc.ca/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains not listed In-Scope.",
+          "type": "other"
+        },
+        {
+          "target": "The following asset is not in scope but allows creation of an account without verification:",
+          "type": "other"
+        },
+        {
+          "target": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca/",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sante-publique-france-bugbounty-public-program",
+    "name": "Santé Publique France Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.onsexprime.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.1000-premiers-jours.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "mangerbouger.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "sso.mangerbouger.fr",
+          "type": "api"
+        },
+        {
+          "target": "vaccination-info-service.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "professionnels.vaccination-info-service.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vivre-avec-la-chaleur.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.tabac-info-service.fr",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Domains not listed in scope are by default all out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sogexia",
+    "name": "Sogexia",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://my.sogexia.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=io.gonative.android.xjndrq&hl=fr",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "itmss://apps.apple.com/us/app/id1510360750?ign-mscache=1",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "all domains not listed in scopes, noteworthy:",
+          "type": "other"
+        },
+        {
+          "target": "www.sogexia.com",
+          "type": "other"
+        },
+        {
+          "target": "support.sogexia.com",
+          "type": "other"
+        },
+        {
+          "target": "www.sogexiaclub.com",
+          "type": "other"
+        },
+        {
+          "target": "Social media accounts",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "superbank-public-bug-bounty-program",
+    "name": "Superbank - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://apps.apple.com/id/app/superbank/id6444720285",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=id.co.bankfama.android&hl=en",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "api.super-id.net",
+          "type": "api"
+        },
+        {
+          "target": "ecosystem-experience.super-id.net",
+          "type": "web-application"
+        },
+        {
+          "target": "superbank.id",
+          "type": "web-application"
+        },
+        {
+          "target": "http://chatbot.super-id.net",
+          "type": "ai-model"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Applications, URLs, or data that are not listed on this page are considered out of scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "swapcard",
+    "name": "Swapcard",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "api.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "chat-api.swapcard.com/graphql",
+          "type": "api"
+        },
+        {
+          "target": "developer.swapcard.com/event-admin/graphql",
+          "type": "api"
+        },
+        {
+          "target": "login.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "studio-api.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "app.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "studio.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "team.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/swapcard/id879488719",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "img.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "t.swapcard.com",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "By default all the endpoints that are not listed in the allowed scopes are out of scope of the program.",
+          "type": "other"
+        },
+        {
+          "target": "*dev.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "page.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "blog.swapcard.com (Hubspot)",
+          "type": "other"
+        },
+        {
+          "target": "aide.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "help.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "books.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "l.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "c.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "sentry.swapcard.com (Except if you notice a miss-configuration)",
+          "type": "other"
+        },
+        {
+          "target": "survey.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "www.swapcard.com (static corporate website)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "swiss-post",
+    "name": "Swiss Post",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+          "type": "other"
+        },
+        {
+          "target": "https://account.post.ch",
+          "type": "web-application"
+        },
+        {
+          "target": "https://shop.post.ch/shop",
+          "type": "web-application"
+        },
+        {
+          "target": "https://service.post.ch/ekp-web/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://service.post.ch/zopa/app/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/ch/app/die-post/id378676700",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+          "type": "web-application"
+        },
+        {
+          "target": "https://service.post.ch/ele-klp/ele/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Anything that has not been described as in scope in the previous section is automatically out of scope.",
+          "type": "other"
+        },
+        {
+          "target": "Attacks on administrative and surrounding systems that are not used for the in-scope services are not permitted (this includes DNS, NTP, routers, systems of the ISP, etc.).",
+          "type": "other"
+        },
+        {
+          "target": "The alternative login (https://login.swissid.ch) is out of scope. It also leads to the in-scope service, (https://account.post.ch) but we have designated it as out of scope.",
+          "type": "other"
+        },
+        {
+          "target": "Any services related to Incamail (for example https://incamail-dev.post.ch (194.41.248.224) and https://incamail-test.post.ch (194.41.248.58))",
+          "type": "other"
+        },
+        {
+          "target": "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)",
+          "type": "other"
+        },
+        {
+          "target": "Please note that some of the applications may contain links or redirect you away from the URIs described in the scope section. This means you are leaving the scope if you follow these links / redirects.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "swiss-post-evoting",
+    "name": "Swiss Post - E-Voting",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 230000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Source Code",
+          "type": "other"
+        },
+        {
+          "target": "System Specification",
+          "type": "other"
+        },
+        {
+          "target": "Scenarios with Special Bounties",
+          "type": "other"
+        },
+        {
+          "target": "Protocol of the Swiss Post Voting System",
+          "type": "other"
+        },
+        {
+          "target": "Protocol of the Swiss Post Voting System 2.0 (Whitepaper)",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Anything that is not explicitely listed in the ‘Scope’ section.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "teamviewer-bounty-program",
+    "name": "TeamViewer - Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.teamviewer.com/en/products/teamviewer/",
+          "type": "application"
+        },
+        {
+          "target": "https://web.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://account.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://login.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "telenor-sweden-public-bug-bounty-program",
+    "name": "Telenor Sweden Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 6000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.signin.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.profile.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.apis.telenor.se",
+          "type": "api"
+        },
+        {
+          "target": "*.api-app.telenor.se",
+          "type": "api"
+        },
+        {
+          "target": "vimla.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.mitt.vimla.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.api.vimla.se",
+          "type": "api"
+        },
+        {
+          "target": "ownit.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.foretagsportalen.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.mittforetag.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.vimlaapp&hl=en",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/se/app/vimla/id1233271881  https://play.google.com/store/apps/details?id=com.vimlaapp&hl=en",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "*.play.ownit.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.inpli.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.telenorinpli.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.stream.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.telenor.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.vimla.work",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.vimla.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.vimla.io",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.ownit.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.bredbandsbolaget.se",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.europolitan.se",
+          "type": "wildcard"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "*.bbcust.telenor.se",
+          "type": "other"
+        },
+        {
+          "target": "*.cust.telenor.se",
+          "type": "other"
+        },
+        {
+          "target": "*.sme.telenor.se",
+          "type": "other"
+        },
+        {
+          "target": "*.cust.bredbandsbolaget.se",
+          "type": "other"
+        },
+        {
+          "target": "*.customers.ownit.se",
+          "type": "other"
+        },
+        {
+          "target": "*.cust.ownit.se",
+          "type": "other"
+        },
+        {
+          "target": "*.ownit.nu",
+          "type": "other"
+        },
+        {
+          "target": "tc.ownit.se",
+          "type": "other"
+        },
+        {
+          "target": "faq.vimla.se",
+          "type": "other"
+        },
+        {
+          "target": "status.vimla.se",
+          "type": "other"
+        },
+        {
+          "target": "stage-vimla-se.vimla.io",
+          "type": "other"
+        },
+        {
+          "target": "admin-stage.tv.telenor.se",
+          "type": "other"
+        },
+        {
+          "target": "Any domain that looks like it's owned by a third party or customer due to customer's privacy",
+          "type": "other"
+        },
+        {
+          "target": "Mobile services and devices provided by Telenor Sweden and subsidiaries not reachable from Internet",
+          "type": "other"
+        },
+        {
+          "target": "Other business units of the Telenor Group - including *.telenor.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tencent-bug-bounty-program",
+    "name": "Tencent Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 8,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+          "type": "other"
+        },
+        {
+          "target": "Non Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Please note that the vulnerabilities reported for the following assets will not be eligible for bounties.",
+          "type": "other"
+        },
+        {
+          "target": "*.qzoneapp.com",
+          "type": "other"
+        },
+        {
+          "target": "*. myqcloud.com",
+          "type": "other"
+        },
+        {
+          "target": "Third-party applications and websites",
+          "type": "other"
+        },
+        {
+          "target": "*Notes about Tencent Cloud (cloud.tencent.com as included in *.tencent.com)",
+          "type": "other"
+        },
+        {
+          "target": "Only vulnerabilities affecting the platform itself and IP owned by Tencent will be accepted. If an IP belongs to Tencent Cloud external customer, it is not considered in scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "thuringer-aufbaubank-bug-bounty-program",
+    "name": "Thüringer Aufbaubank Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 7000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://thueringer-foerderportal.eu",
+          "type": "web-application"
+        },
+        {
+          "target": "https://login.aufbaubank.de",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        {
+          "target": "All 3rd parties are out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vfs-global-bug-bounty-program",
+    "name": "VFS Global Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 5,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.vfsglobal.(com|co.uk|ca)",
+          "type": "web-application"
+        },
+        {
+          "target": "*.vfsevisa.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.onevasco.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "www.vfsvisaonline.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.directverify.in",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.docswallet.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "biometservices.com",
+          "type": "web-application"
+        },
+        {
+          "target": "agents.tasheer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://equatorialguinea-evisa.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://online.srilankaevisa.lk/lka/en/login",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vfs.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vfseu.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://indonesiavoa.vfsevisa.id/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vc.tasheer.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "*.vfsglobal.by",
+          "type": "wildcard"
+        },
+        {
+          "target": "*. vfsevisa.id",
+          "type": "wildcard"
+        },
+        {
+          "target": "*.vfsai.com",
+          "type": "wildcard"
+        },
+        {
+          "target": "https://cicforms.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vfsforms.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://mohesr.vfsglobal.com/forms/CVUAE/admin/",
+          "type": "web-application"
+        },
+        {
+          "target": "phlonline.vfsevisa.cn",
+          "type": "web-application"
+        },
+        {
+          "target": "phlportal.vfsevisa.cn",
+          "type": "web-application"
+        },
+        {
+          "target": "evisa.gov.mz",
+          "type": "web-application"
+        },
+        {
+          "target": "https://uketa.vfsglobal.com/forms/UKETA/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.vfsglobalcustomerexperience.com/CustomerFeedback/GeneralFeedback/Index",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.visaforkorea-sl.com/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All other VFS assets that are not listed above as in scope are automatically out of scope",
+          "type": "other"
+        },
+        {
+          "target": "https://india-usa.vfsglobal.com",
+          "type": "other"
+        },
+        {
+          "target": "https://vire.vfsglobal.com",
+          "type": "other"
+        },
+        {
+          "target": "vfsglobal.com.ru",
+          "type": "other"
+        },
+        {
+          "target": "myeasydocs.co.il",
+          "type": "other"
+        },
+        {
+          "target": "nssr-7.vfsglobal.com",
+          "type": "other"
+        },
+        {
+          "target": "https://uat-lift.vfsglobal.com/_angular/main.8dbd1aa97c38b188.js?v=6.0.29",
+          "type": "other"
+        },
+        {
+          "target": "https://liftassets.vfsglobal.com/_nuxt/46217fc777819548fddb.js",
+          "type": "other"
+        },
+        {
+          "target": "https://ukvitest.vfsglobal.com/_angular/main.3ca04c44a2718f71.js?v=1.0.22",
+          "type": "other"
+        },
+        {
+          "target": "https://online.vfsevisa.com/main-es2015.521ef2e1d9f68fd1bb90.js",
+          "type": "other"
+        },
+        {
+          "target": "https://online.vfsevisa.com/main-es5.521ef2e1d9f68fd1bb90.js?v=3.1.6",
+          "type": "other"
+        },
+        {
+          "target": "https://portal.vfsevisa.com/main-es2015.987b1b526aa8041bfdee.js",
+          "type": "other"
+        },
+        {
+          "target": "https://portal.vfsevisa.com/main-es5.987b1b526aa8041bfdee.js?v=3.1.6",
+          "type": "other"
+        },
+        {
+          "target": "https://uat-lift.vfsglobal.com/_angular/main.c05c54e8703c3a9f.js?v=6.0.36",
+          "type": "other"
+        },
+        {
+          "target": "https://online.vfsevisa.com/main-es2015.6d514e86ec7c6492aafc.js?v=3.1.2",
+          "type": "other"
+        },
+        {
+          "target": "https://portal.vfsevisa.com/main-es2015.7857657af609ca5e4bc5.js?v=3.1.4",
+          "type": "other"
+        },
+        {
+          "target": "https://egonline.vfsevisa.com/main-es2015.c7bb991442356b23f23e.js?v=3.1.3",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vincisa-public-program",
+    "name": "VINCI SA - Public program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "leonard.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "castor.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "survey.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.fondation-vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.lab-recherche-environnement.org",
+          "type": "web-application"
+        },
+        {
+          "target": "vœux.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vinci-vie.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.trajeoh.com",
+          "type": "web-application"
+        },
+        {
+          "target": "actionnaires.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "emag.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "boost.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "vinci-groupe.profils.org",
+          "type": "web-application"
+        },
+        {
+          "target": "jobs.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "solutions-environnement.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "essentiel.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "essentials.vinci.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.chaire-arpenter.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "www.habileoh.com",
+          "type": "web-application"
+        },
+        {
+          "target": "stats.vinci.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Please note that www.lafabriquedelacite.com is out of scope from today 10/12/25 as the web site is going to be redeveloped.",
+          "type": "other"
+        },
+        {
+          "target": "Anything that is not explicitely listed in scope section",
+          "type": "other"
+        },
+        {
+          "target": "!! Links pointing to other FQDNs are always out of scope !!",
+          "type": "other"
+        },
+        {
+          "target": "only exception: wishes.vinci.com (english version of voeux.vinci.com) is included in the scope",
+          "type": "other"
+        },
+        {
+          "target": "All PDF documents published or served on castor.vinci.com are public, thank you for not reporting any bug linked to the accessibility of these documents.",
+          "type": "other"
+        },
+        {
+          "target": "On www.vinci.com, Cross Site Scripting (XSS) vulnerabilities are considered out of scope temporarily as part of an exhaustive remediation project for such code injections.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "xelians-blackbox-program",
+    "name": "Xelians - Blackbox program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://preprod-xam.xelians.fr/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://preprod-datahub.xelians.fr/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yes-we-hack",
+    "name": "YesWeHack",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 15000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://yeswehack.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.yeswehack.com",
+          "type": "api"
+        },
+        {
+          "target": "https://apps.yeswehack.com",
+          "type": "api"
+        },
+        {
+          "target": "https://www.yeswehack.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Vulnerabilities reported on other services or applications are not allowed.",
+          "type": "other"
+        },
+        {
+          "target": "Any issues with Wallet or KYC features (There are third party services)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dojo",
+    "name": "YesWeHack Dojo",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": null,
+    "max_bounty": null,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-54",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Everything that's out of the scope root URL",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zecible-public-bug-bounty-program",
+    "name": "ZECIBLE PUBLIC BUG BOUNTY PROGRAM",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "ywh.zcb.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.comptage.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.static.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.fichiers.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.mydata.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.admin.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.api.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.dev.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.crons.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.routage.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "ywh.update.zecible.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "odoo14.notebleue.pro",
+          "type": "web-application"
+        },
+        {
+          "target": "registre.notebleue.pro",
+          "type": "web-application"
+        },
+        {
+          "target": "svn.notebleue.pro",
+          "type": "web-application"
+        },
+        {
+          "target": "todo.notebleue.pro",
+          "type": "web-application"
+        },
+        {
+          "target": "webtoolbox.notebleue.pro",
+          "type": "web-application"
+        },
+        {
+          "target": "cam.notebleue.pro",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "toom-baumarkt-gmbh-bug-bounty-program",
+    "name": "toom Baumarkt GmbH - Webshop",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://toom.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.toom.de",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vidaxl-services-open-bug-bounty-program",
+    "name": "vidaXL Services - Open Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.vidaxl.(at|be|bg|ch|co.uk.com|com.au|com.ua|com|cz|de|dk|ee|es|fi|fr|gr|ie|is|it|hr|hu|lt|lv|no|nl|pl|pt|ro|se|si|sk|uk|ae|ca|jp)",
+          "type": "web-application"
+        },
+        {
+          "target": "https://*.vidaxl.org",
+          "type": "api"
+        },
+        {
+          "target": "https://*.vidaxl.io",
+          "type": "web-application"
+        },
+        {
+          "target": "https://*.vidaxl.net",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  }
+]

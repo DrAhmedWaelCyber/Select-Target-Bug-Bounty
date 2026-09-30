@@ -1,0 +1,17 @@
+{
+  "yeswehack": {
+    "etag": "W/\"3acd4246fed2079bb15f8209d92d24ef54df1eacd07e53a78e96bfc99ab2cef3\"",
+    "last_updated": "2026-09-29 21:28:42",
+    "count": 56
+  },
+  "bugcrowd": {
+    "etag": "W/\"bfa351152cb20037e9d5a6e36681ab6ba2a5b5c2705f054bc878e7b7e1dbe9ba\"",
+    "last_updated": "2026-09-29 21:28:42",
+    "count": 287
+  },
+  "hackerone": {
+    "etag": "W/\"ab4db37be82fae059fbdd68efaef1d76d6d2e5f60d1fb10f4f1b3db67e0f4757\"",
+    "last_updated": "2026-09-30 12:53:56",
+    "count": 455
+  }
+}
